@@ -1,5 +1,5 @@
-import forge from 'https://esm.sh/gh/digitalbazaar/forge@0.10.0';
-let pki = forge.pki;
+import forge from 'https://esm.sh/gh/digitalbazaar/forge@v1.3.1';
+let {pki} = forge;
 
 let checkIPv4 = function(value) {
 	let blocks = value.split('.');
